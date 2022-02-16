@@ -29,6 +29,7 @@ function Skills() {
           <div>
             <p>Git & Github</p>
             <p>VSCode</p>
+            <p>Stackoverflow</p>
           </div>
         </div>
       </div>

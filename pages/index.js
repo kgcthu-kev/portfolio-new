@@ -23,7 +23,7 @@ export default function Home() {
             </h2>
 
             <h1 className='text-5xl font-bold md:text-6xl'>
-              Kaung Si Thu @ Kevin,
+              Kaung Si Thu <span className='hidden md:inline'>@kgcthu</span>,
             </h1>
 
             <h4 className='text-3xl font-bold md:text-4xl'>
