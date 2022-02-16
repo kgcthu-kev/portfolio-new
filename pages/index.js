@@ -11,8 +11,11 @@ export default function Home() {
     <div>
       <Head>
         <title>Kaung Si Thu | Web Developer</title>
-        <meta name='description' content='kgcthu portfolio' />
-        <link rel='icon' href='/favicon.ico' />
+        <meta
+          name='description'
+          content='Portfolio website of Kaung Si Thu @ kgcthu'
+        />
+        <link rel='icon' href='/favicon.png' />
       </Head>
 
       <main className='w-full max-w-4xl mx-auto'>
