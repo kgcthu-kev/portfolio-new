@@ -39,8 +39,8 @@ export const projectInfo = [
     title: 'Portfolio Website',
     description: 'This is my porfolio website',
     skills: ['React.js', 'Next.js', 'TailwindCSS'],
-    github: 'https://github.com/kgcthu-kev/newsgrid-website',
-    demo: 'https://frosty-noether-ef179b.netlify.app/',
+    github: 'https://github.com/kgcthu-kev/portfolio-new',
+    demo: 'https://kgcthu.vercel.app/',
   },
   {
     id: 6,
@@ -49,5 +49,41 @@ export const projectInfo = [
     skills: ['HTML', 'CSS', 'Javascript'],
     github: 'https://github.com/kgcthu-kev/quote-generator',
     demo: 'https://inspiring-wiles-8a6919.netlify.app/',
+  },
+]
+
+export const myTimeline = [
+  {
+    year: 2021,
+    posts: [
+      {
+        title: 'My Web Development Journey Started',
+        month: 'August',
+        description:
+          "I was learning data analysis at that time and one of my friends suggested me to learn web development and I start learning it from udemy course by 'Angela Yu'",
+      },
+      {
+        title: 'My first javascript framework',
+        month: 'November',
+        description: 'I learnt react.js yayy!',
+      },
+      {
+        title: 'Applied for my first job application',
+        month: 'December',
+        description:
+          'I was nervous but my friends forced me to apply jobs so I did it. Unluckily, I didnt even get interviewd.',
+      },
+    ],
+  },
+  {
+    year: 2022,
+    posts: [
+      {
+        title: 'Portfolio website',
+        month: 'February',
+        description:
+          'I built this portfolio website with next.js and tailwind CSS',
+      },
+    ],
   },
 ]

@@ -33,7 +33,7 @@ function Header() {
             <Link href='/'>Home</Link>
           </li>
           <li>
-            <Link href='#projects'>Projects</Link>
+            <Link href='/#projects'>Projects</Link>
           </li>
 
           <li>
@@ -41,7 +41,7 @@ function Header() {
           </li>
 
           <li>
-            <Link href='#contact'>Contact</Link>
+            <Link href='/#contact'>Contact</Link>
           </li>
         </ul>
 
