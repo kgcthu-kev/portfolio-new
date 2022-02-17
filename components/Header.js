@@ -42,7 +42,7 @@ function Header() {
           </li>
 
           <li>
-            <Link href='/contact'>Contact</Link>
+            <Link href='#contact'>Contact</Link>
           </li>
         </ul>
 
