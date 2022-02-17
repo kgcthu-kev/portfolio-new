@@ -9,7 +9,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html className='scroll-smooth'>
         <Head>
           <link
             href='https://fonts.googleapis.com/css2?family=Poppins'

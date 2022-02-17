@@ -29,7 +29,7 @@ export const ContactUs = () => {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className='px-4 lg:px-0 min-h-[calc(100vh-25vh-5rem)]'
+      className='px-4 lg:px-0 min-h-[calc(100vh-25vh-5rem)] scroll-my-16'
       id='contact'
     >
       <h1 className='text-3xl font-bold my-4'>Contact Me</h1>

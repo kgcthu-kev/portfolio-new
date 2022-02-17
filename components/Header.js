@@ -10,7 +10,6 @@ import {
   FaLinkedin,
   FaTwitter,
 } from 'react-icons/fa'
-import { ImCross } from 'react-icons/im'
 
 const spring = {
   type: 'spring',
