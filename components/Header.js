@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
@@ -81,29 +81,34 @@ function Header() {
             </div>
           )}
         </ul>
-        {isOpen && (
-          // mobile
-          <motion.ul
-            className='fixed top-0 left-0 h-auto space-x-1 md:items-center w-full z-50 flex items-center bg-gray-700 text-white dark:bg-gray-500 dark:text-black flex-col p-5 shadow-lg md:hidden rounded   translate-x-96'
-            animate={{
-              x: '0',
-            }}
-            transition={{ type: 'tween', duration: 0.5 }}
-          >
-            <li className='py-3'>
-              <Link href='/'>Home</Link>
-            </li>
-            <li className='py-3'>
-              <Link href='/#projects'>Projects</Link>
-            </li>
-            <li className='py-3'>
-              <Link href='/about'>About</Link>
-            </li>
-            <li className='py-3'>
-              <Link href='/#contact'>Contact</Link>
-            </li>
-          </motion.ul>
-        )}
+        <AnimatePresence>
+          {isOpen && (
+            // mobile
+            <motion.ul
+              className='fixed top-0 left-0 h-auto space-x-1 md:items-center w-full z-50 flex items-center bg-gray-50 dark:bg-gray-800 flex-col p-5 shadow-lg md:hidden rounded translate-x-96'
+              animate={{
+                x: '0',
+              }}
+              exit={{
+                x: '100%',
+              }}
+              transition={{ type: 'spring', stiffness: 100 }}
+            >
+              <li className='py-3'>
+                <Link href='/'>Home</Link>
+              </li>
+              <li className='py-3'>
+                <Link href='/#projects'>Projects</Link>
+              </li>
+              <li className='py-3'>
+                <Link href='/about'>About</Link>
+              </li>
+              <li className='py-3'>
+                <Link href='/#contact'>Contact</Link>
+              </li>
+            </motion.ul>
+          )}
+        </AnimatePresence>
         <ul className='md:hidden z-50'>
           {!isOpen ? (
             <FaEllipsisH
