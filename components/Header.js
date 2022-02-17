@@ -82,7 +82,14 @@ function Header() {
           )}
         </ul>
         {isOpen && (
-          <ul className='fixed top-0 left-0 h-auto space-x-1 md:items-center w-full z-50 flex items-center bg-gray-700 text-white dark:bg-gray-500 dark:text-black flex-col p-5 shadow-lg md:hidden'>
+          // mobile
+          <motion.ul
+            className='fixed top-0 left-0 h-auto space-x-1 md:items-center w-full z-50 flex items-center bg-gray-700 text-white dark:bg-gray-500 dark:text-black flex-col p-5 shadow-lg md:hidden rounded   translate-x-96'
+            animate={{
+              x: '0',
+            }}
+            transition={{ type: 'tween', duration: 0.5 }}
+          >
             <li className='py-3'>
               <Link href='/'>Home</Link>
             </li>
@@ -95,7 +102,7 @@ function Header() {
             <li className='py-3'>
               <Link href='/#contact'>Contact</Link>
             </li>
-          </ul>
+          </motion.ul>
         )}
         <ul className='md:hidden z-50'>
           {!isOpen ? (
@@ -112,7 +119,6 @@ function Header() {
             />
           )}
         </ul>
-        {/* mobile */}
       </nav>
     </header>
   )
