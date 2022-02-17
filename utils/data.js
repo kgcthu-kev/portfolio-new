@@ -60,7 +60,7 @@ export const myTimeline = [
         title: 'My Web Development Journey Started',
         month: 'August',
         description:
-          "I was learning data analysis at that time and one of my friends suggested me to learn web development and I start learning it from udemy course by 'Angela Yu'",
+          "I was learning data analysis at that time and one of my friends suggested me to learn web development and I started learning it from udemy course by 'Angela Yu'",
       },
       {
         title: 'My first javascript framework',
@@ -68,10 +68,10 @@ export const myTimeline = [
         description: 'I learnt react.js yayy!',
       },
       {
-        title: 'Applied for my first job application',
+        title: 'Applied my first job!',
         month: 'December',
         description:
-          'I was nervous but my friends forced me to apply jobs so I did it. Unluckily, I didnt even get interviewd.',
+          'I was nervous but my friends forced me to apply jobs so I did it. Unluckily, I didnt even get interviewed.',
       },
     ],
   },

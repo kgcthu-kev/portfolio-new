@@ -87,13 +87,13 @@ function Header() {
               <Link href='/'>Home</Link>
             </li>
             <li className='py-3'>
-              <Link href='#projects'>Projects</Link>
+              <Link href='/#projects'>Projects</Link>
             </li>
             <li className='py-3'>
               <Link href='/about'>About</Link>
             </li>
             <li className='py-3'>
-              <Link href='#contact'>Contact</Link>
+              <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
         )}
