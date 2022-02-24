@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { toast } from 'react-toastify'
 
 export const ContactUs = () => {
   const form = useRef()
@@ -17,9 +18,19 @@ export const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text)
+          toast.success('Thanks for contacting me ^^', {
+            autoClose: 5000,
+            position: 'top-center',
+            transition: 'slide',
+          })
         },
         (error) => {
           console.log(error.text)
+          toast.error('I do not receive your email, Please try again', {
+            autoClose: 5000,
+            position: 'top-center',
+            transition: 'slide',
+          })
         }
       )
     e.target.reset()
