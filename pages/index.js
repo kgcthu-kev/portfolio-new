@@ -17,6 +17,7 @@ export default function Home() {
           name='description'
           content='Portfolio website of Kaung Si Thu @ kgcthu'
         />
+        <meta property='og:title' content='Kgcthu' />
         <link rel='icon' href='/favicon.png' />
       </Head>
 
