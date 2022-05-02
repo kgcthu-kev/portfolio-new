@@ -14,7 +14,7 @@ function Footer() {
           </li>
           <li>
             <a
-              href='https://www.facebook.com/kgcthu.0511/'
+              href='https://www.facebook.com/kgcthu.320/'
               className='underline'
             >
               Facebook

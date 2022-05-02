@@ -18,18 +18,26 @@ export const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text)
-          toast.success('Thanks for contacting me ^^', {
+          toast.success('Thanks for contacting me :D', {
+            position: 'top-right',
             autoClose: 5000,
-            position: 'top-center',
-            transition: 'slide',
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
           })
         },
         (error) => {
           console.log(error.text)
           toast.error('I do not receive your email, Please try again', {
+            position: 'top-right',
             autoClose: 5000,
-            position: 'top-center',
-            transition: 'slide',
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
           })
         }
       )

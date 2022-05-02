@@ -51,39 +51,3 @@ export const projectInfo = [
     demo: 'https://inspiring-wiles-8a6919.netlify.app/',
   },
 ]
-
-export const myTimeline = [
-  {
-    year: 2021,
-    posts: [
-      {
-        title: 'My Web Development Journey Started',
-        month: 'August',
-        description:
-          "I was learning data analysis at that time and one of my friends suggested me to learn web development and I started learning it from udemy course by 'Angela Yu'",
-      },
-      {
-        title: 'My first javascript framework',
-        month: 'November',
-        description: 'I learnt react.js yayy!',
-      },
-      {
-        title: 'Applied my first job!',
-        month: 'December',
-        description:
-          'I was nervous but my friends forced me to apply jobs so I did it. Unluckily, I didnt even get interviewed.',
-      },
-    ],
-  },
-  {
-    year: 2022,
-    posts: [
-      {
-        title: 'Portfolio website',
-        month: 'February',
-        description:
-          'I built this portfolio website with next.js and tailwind CSS',
-      },
-    ],
-  },
-]
