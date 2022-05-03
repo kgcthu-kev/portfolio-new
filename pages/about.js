@@ -22,6 +22,7 @@ function about() {
                 href='https://www.instagram.com/kgcthu/'
                 className='hover:text-blue-900'
                 target='_blank'
+                rel='noreferrer'
               >
                 @kgcthu
               </a>
